@@ -17,5 +17,28 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Betm Rounded, sans-serif;
+}
+.card-filter {
+  filter: drop-shadow(0px 2px 4px rgba(16, 24, 40, 0.06)) drop-shadow(0px 4px 8px rgba(16, 24, 40, 0.1));
+}
+.play-icon {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 56px;
+  background: linear-gradient(0deg, #eb4e59 0%, #eb4e59 100%), radial-gradient(83.94% 83.94% at 26.39% 20.83%, #eb4e59 0%, #eb4e59 100%);
+  box-shadow:
+    -3px -4px 7px 0px rgba(255, 255, 255, 0.15) inset,
+    4px 38px 62px 0px rgba(215, 72, 81, 0.38);
+}
+
+.transfor-play-icon{
+  transform: translate(0%, 20%);
+}
+
+.card4{
+  box-shadow: 0px 0px 16px 0px #E9FAF5;
+  background-color: #e9faf5;
+
 }
