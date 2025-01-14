@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import CareerCard from "./CareerCard";
 import CareerInnovate from "./CareerInnovate";
-import {CareerPlay} from "@/svg";
+import { CareerPlay } from "@/svg";
 const CareerDoctor = () => {
   return (
     <div className="px-2 lg:px-40 mt-4">
@@ -14,11 +14,8 @@ const CareerDoctor = () => {
               <div className=" w-full max-w-[1132px] flex justify-between items-center border-b border-natural-grey py-6">
                 <div className=" flex justify-center items-center gap-2 lg:gap-14">
                   <div className="flex justify-center items-center gap-2 ">
-                    <div className="">
-                      {x.image}
-                    
-                    </div>
-                    
+                    <div className="">{x.image}</div>
+
                     <span className="text-base lg:text-xl font-space-gori font-normal text-nile-blue">
                       {x.count}
                     </span>
@@ -47,11 +44,23 @@ const CareerDoctor = () => {
             <div className=" w-full max-w-[1132px] flex justify-between items-center border-b border-natural-grey py-6">
               <div className=" flex justify-center items-center gap-14">
                 <div className="flex justify-center items-center gap-2 ">
-                  <div className="">
-                    <CareerPlay />
-                    
+                  <div className="hidden lg:block">
+                    <Image
+                      src="/career/careerLamp.svg"
+                      alt="career"
+                      width={30}
+                      height={30}
+                    />
                   </div>
-                  
+                  <div className="lg:hidden">
+                    <Image
+                      src="/career/careerLamp.svg"
+                      alt="career"
+                      width={16}
+                      height={16}
+                    />
+                  </div>
+
                   <p className="text-base lg:text-xl font-space-gori font-normal text-nile-blue">
                     Quiz
                   </p>
@@ -112,11 +121,8 @@ const CareerDoctor = () => {
               <div className=" w-full max-w-[1132px] flex justify-between items-center border-b border-natural-grey py-6">
                 <div className=" flex justify-center items-center gap-2 lg:gap-14">
                   <div className="flex justify-center items-center gap-2 ">
-                    <div className="">
-                      {x.image}
-                      
-                    </div>
-                    
+                    <div className="">{x.image}</div>
+
                     <span className="text-base lg:text-xl font-space-gori font-normal text-nile-blue">
                       {x.count}
                     </span>
