@@ -37,7 +37,7 @@ const CareerInnovate = () => {
             name="Previous"
             className="bg-voilet text-purple-heart"
           />
-          <CareerCustomButton name="Next" />
+          <CareerCustomButton name="Next" className="text-white"/>
         </div>
       </div>
     </div>

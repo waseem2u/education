@@ -41,7 +41,7 @@ export default function BasicTabs() {
   };
 
   return (
-    <div className="px-40 mt-4">
+    <div className="px-2 lg:px-40 my-16">
       <div className="">
         <Box sx={{ width: "100%" }}>
           <Box
@@ -57,13 +57,24 @@ export default function BasicTabs() {
               value={value}
               onChange={handleChange}
               aria-label="basic tabs example"
-              sx={{ gap: "1rem" }}
+              sx={{
+                "& .MuiTabs-flexContainer": {
+                  gap: "1rem", // Add gap between tabs
+                },
+                // Responsive styles
+                "@media (max-width: 600px)": {
+                  fontSize: "12px", // Font size for mobile
+                  "& .MuiTabs-flexContainer": {
+                    gap: "8px", // Add gap between tabs
+                  },
+                },
+              }}
             >
               <Tab
                 label="Content"
                 {...a11yProps(0)}
                 sx={{
-                  backgroundColor: "#753CBD",
+                  backgroundColor: "white",
                   borderRadius: "8px",
                   paddingTop: "10px",
                   paddingBottom: "10px",
@@ -71,11 +82,16 @@ export default function BasicTabs() {
                   paddingRight: "16px",
                   fontSize: "20px",
 
-                  border: "1px solid #753CBD !important",
-                  text: "white",
+                  // border: "1px solid #753CBD !important",
+                  text: "#2A254D",
                   "&.Mui-selected": {
                     color: "white",
+                    backgroundColor: "#753CBD",
                     fontFamily: "inherit",
+                  },
+                  // Responsive styles
+                  "@media (max-width: 600px)": {
+                    fontSize: "14px", // Font size for mobile
                   },
                 }}
               />
@@ -90,11 +106,17 @@ export default function BasicTabs() {
                   paddingLeft: "16px",
                   paddingRight: "16px",
                   fontSize: "20px",
+
                   border: "1px solid #fff !important",
                   text: "#2A254D",
                   "&.Mui-selected": {
                     color: "white",
+                    backgroundColor: "#753CBD",
                     fontFamily: "inherit",
+                  },
+                  // Responsive styles
+                  "@media (max-width: 600px)": {
+                    fontSize: "14px", // Font size for mobile
                   },
                 }}
               />
@@ -113,7 +135,12 @@ export default function BasicTabs() {
                   text: "#2A254D",
                   "&.Mui-selected": {
                     color: "white",
+                    backgroundColor: "#753CBD",
                     fontFamily: "inherit",
+                  },
+                  // Responsive styles
+                  "@media (max-width: 600px)": {
+                    fontSize: "14px", // Font size for mobile
                   },
                 }}
               />

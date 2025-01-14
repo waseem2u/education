@@ -8,7 +8,7 @@ const CareerCustomButton = ({ name, className }: CustomButtonIProps) => {
   return (
     <button
       className={classNames(
-        "font-space-gori text-sm text-white border-2 border-white rounded-lg py-2 px-[14px] bg-purple-heart",
+        "font-space-gori text-sm text-purple-heart border-2 border-purple-heart rounded-lg py-2 px-[14px] bg-purple-heart",
         className
       )}
     >

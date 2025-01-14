@@ -556,6 +556,22 @@ export const CareerPlay = ({ fill, onClick }: Partial<SvgParamTypes>) => (
     />
   </svg>
 );
+export const CareerPlaySmall = ({ fill, onClick }: Partial<SvgParamTypes>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="11"
+    height="14"
+    viewBox="0 0 11 14"
+    fill="none"
+  >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M8.89774 7.00002L1.99988 2.4015V11.5987L8.89774 7.00002ZM10.2913 6.12641C10.9148 6.54208 10.9148 7.45811 10.2913 7.87378L2.13221 13.3133C1.43447 13.7785 0.499756 13.2782 0.499756 12.4395V1.56065C0.499756 0.722026 1.43447 0.221826 2.13221 0.687044L10.2913 6.12641Z"
+      fill="#753CBD"
+    />
+  </svg>
+);
 
 
 

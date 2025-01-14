@@ -21,7 +21,7 @@ const CareerCard = () => {
 
         <div className="pt-4 ">
           <div className="bg-purple-heart border rounded px-[10px] py-[10px]">
-            <span className="text-lg font-space-gori font-normal text-start text-white">
+            <span className="text-base lg:text-lg font-space-gori font-normal text-start text-white">
               No one
             </span>
           </div>
@@ -31,7 +31,7 @@ const CareerCard = () => {
                 key={index}
                 className="drop-shadow border border-white-rock rounded px-[10px] py-[10px]"
               >
-                <span className="text-lg font-space-gori font-normal text-ship-grey">
+                <span className="text-base lg:text-lg font-space-gori font-normal text-ship-grey">
                   {x.title}
                 </span>
               </div>
@@ -43,7 +43,7 @@ const CareerCard = () => {
             name="Previous"
             className="bg-voilet text-purple-heart"
           />
-          <CareerCustomButton name="Next" />
+          <CareerCustomButton name="Next" className="text-white"/>
         </div>
       </div>
     </div>
