@@ -47,7 +47,7 @@ const CopyHeader = () => {
                
               </div>
 
-              <p className="w-full max-w-[457px] font-space-gori font-normal text-xl md:text-2xl leading-9 text-[#928f95] py-6">
+              <p className="w-full max-w-[457px] font-space-gori font-normal text-lg md:text-2xl leading-9 text-[#928f95] py-6">
                 15 mins a day to academic excellence for grades 6th to 10th.
                 Learning made fun, engaging & interactive.
               </p>

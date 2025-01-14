@@ -3,7 +3,7 @@ import { CircleIcon, CircleIcon1 } from "@/svg";
 
 const CustomCard3 = () => {
   return (
-    <div className="w-full max-w-[352px] lg:!max-w-[544px] bg-card3 bg-center bg-cover bg-no-repeat rounded-2xl bg-Rose-White border-2 ">
+    <div className="w-full max-w-[352px] lg:!max-w-[544px] bg-card3 bg-center bg-cover bg-no-repeat rounded-2xl bg-rose-white border-2 ">
       <div className="pt-8 pl-8 w-[72px] h-[72px] lg:w-[120px] lg:h-[120px]">
         <img
           src="/engaje/Avater2.svg"
