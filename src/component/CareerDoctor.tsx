@@ -14,7 +14,9 @@ const CareerDoctor = () => {
               <div className=" w-full max-w-[1132px] flex justify-between items-center border-b border-natural-grey py-6">
                 <div className=" flex justify-center items-center gap-2 lg:gap-14">
                   <div className="flex justify-center items-center gap-2 ">
-                    <div className="">{x.image}</div>
+                    <div className="w-6 h-6 lg:w-[30px] lg:h-[30px] border border-purple-heart rounded-full flex justify-center items-center">
+                      {x.image}
+                    </div>
 
                     <span className="text-base lg:text-xl font-space-gori font-normal text-nile-blue">
                       {x.count}
@@ -56,8 +58,8 @@ const CareerDoctor = () => {
                     <Image
                       src="/career/careerLamp.svg"
                       alt="career"
-                      width={16}
-                      height={16}
+                      width={24}
+                      height={24}
                     />
                   </div>
 
@@ -95,8 +97,8 @@ const CareerDoctor = () => {
                   <Image
                     src="/career/careerLamp.svg"
                     alt="career"
-                    width={16}
-                    height={16}
+                    width={24}
+                    height={24}
                   />
                 </div>
                 <p className="text-base lg:text-xl font-space-gori font-normal text-nile-blue">
@@ -121,7 +123,9 @@ const CareerDoctor = () => {
               <div className=" w-full max-w-[1132px] flex justify-between items-center border-b border-natural-grey py-6">
                 <div className=" flex justify-center items-center gap-2 lg:gap-14">
                   <div className="flex justify-center items-center gap-2 ">
-                    <div className="">{x.image}</div>
+                    <div className="w-6 h-6 lg:w-[30px] lg:h-[30px] border border-purple-heart rounded-full flex justify-center items-center">
+                      {x.image}
+                    </div>
 
                     <span className="text-base lg:text-xl font-space-gori font-normal text-nile-blue">
                       {x.count}
@@ -221,7 +225,7 @@ const CAREER_PART = [
   {
     id: 2,
     image: <CareerPlay />,
-    count: "6.",
+    count: "7.",
     name: "Introduction of Doctor Career",
     percent: " 10% Completed",
     minute: "10 minutes",
@@ -229,7 +233,7 @@ const CAREER_PART = [
   {
     id: 3,
     image: <CareerPlay />,
-    count: "6.",
+    count: "8.",
     name: "Introduction of Doctor Career",
     percent: " 10% Completed",
     minute: "10 minutes",
