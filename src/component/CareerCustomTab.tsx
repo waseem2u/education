@@ -83,7 +83,7 @@ export default function BasicTabs() {
                   fontSize: "20px",
 
                   // border: "1px solid #753CBD !important",
-                  text: "#2A254D",
+                  color: "#2A254D",
                   "&.Mui-selected": {
                     color: "white",
                     backgroundColor: "#753CBD",
@@ -108,7 +108,7 @@ export default function BasicTabs() {
                   fontSize: "20px",
 
                   border: "1px solid #fff !important",
-                  text: "#2A254D",
+                  color: "#2A254D",
                   "&.Mui-selected": {
                     color: "white",
                     backgroundColor: "#753CBD",
@@ -132,7 +132,7 @@ export default function BasicTabs() {
                   paddingRight: "16px",
                   fontSize: "20px",
                   border: "1px solid #fff !important",
-                  text: "#2A254D",
+                  color: "#2A254D",
                   "&.Mui-selected": {
                     color: "white",
                     backgroundColor: "#753CBD",
