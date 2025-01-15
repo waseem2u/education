@@ -28,7 +28,7 @@ const CareerInnovate = () => {
               type="text"
               placeholder="Type Your Answer"
               onChange={() => setInputChange("")}
-              className="placeholder:text-lg placeholder:font-space-gori placeholder:text-natural-grey"
+              className="placeholder:text-base lg:placeholder:text-lg placeholder:font-space-gori placeholder:text-silver-chalice"
             />
           </div>
         </div>
