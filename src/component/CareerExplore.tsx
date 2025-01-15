@@ -38,7 +38,7 @@ const CareerExplore = () => {
               </div>
             </div>
           </div>
-          <div className="bg-natural-grey rounded-r-lg h-full">
+          <div className="bg-natural-grey rounded-r-lg h-full overflow-hidden">
             <video className=" h-full" controls>
               <source
                 src="https://docs.material-tailwind.com/demo.mp4"
