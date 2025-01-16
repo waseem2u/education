@@ -1,68 +1,95 @@
-import React from "react";
-import CareerCustomButton from "./CareerCustomButton";
+// import React from "react";
+// import CareerCustomButton from "./CareerCustomButton";
 
-const CareerCard = () => {
-  return (
-    <div className="w-full max-w-[1132px] card-shadow">
-      <div className="px-4 py-4">
-        <div className="flex justify-start items-start flex-col gap-5">
-          <div className="flex justify-start items-start">
-            <p className="text-base font-space-gori font-normal text-dark-pastel-purple">
-              Question:
-            </p>
-            <span className="text-base font-space-gori font-normal text-dark-pastel-purple">
-              3/30
-            </span>
-          </div>
-          <p className="text-xl font-space-gori font-normal text-ship-grey">
-            Who is the innovate bulb?
-          </p>
-        </div>
+// const CareerCard = () => {
 
-        <div className="pt-4 ">
-          <div className="bg-purple-heart border rounded px-[10px] py-[10px]">
-            <span className="text-base lg:text-lg font-space-gori font-normal text-start text-white">
-              No one
-            </span>
-          </div>
-          {CAREER_OPTION.map((x, index) => (
-            <div className="pt-[14px]">
-              <div
-                key={index}
-                className="drop-shadow border border-white-rock rounded px-[10px] py-[10px]"
-              >
-                <span className="text-base lg:text-lg font-space-gori font-normal text-ship-grey">
-                  {x.title}
-                </span>
-              </div>
-            </div>
-          ))}
-        </div>
-        <div className="flex justify-start items-start gap-4 pt-6">
-          <CareerCustomButton
-            name="Previous"
-            className="bg-voilet text-purple-heart"
-          />
-          <CareerCustomButton name="Next" className="text-white"/>
-        </div>
-      </div>
-    </div>
-  );
-};
+  
+//   const filterQuestion = CAREER_QUESTION.filter((x, id) =>
+//     x.question.includes("2")
+//   );
 
-export default CareerCard;
+//   const increment = () => {
+//     const filterQuestion = CAREER_QUESTION.filter((x, id) =>
+//       x.question.includes("2")
+//     );
+    
+//   };
+//   const decrement = () => {};
+//   return (
+//     <div className="w-full max-w-[1132px] card-shadow">
+//       {filterQuestion.map((x, index) => (
+//                 <div className="flex justify-start items-start flex-col gap-5">
+//                   <div className="flex justify-start items-start">
+//                     <p className="text-base font-space-gori font-normal text-dark-pastel-purple">
+//                       Question:
+//                     </p>
+//                     <p className="text-base font-space-gori font-normal text-dark-pastel-purple">
+//                       {increment}/{decrement}
+//                     </p>
+//                   </div>
+//                   <p className="text-xl font-space-gori font-normal text-ship-grey">
+//                     {x.question}
+//                   </p>
+//                 </div>
+//               ))}
 
-const CAREER_OPTION = [
-  {
-    id: 1,
-    title: "  Option 2",
-  },
-  {
-    id: 2,
-    title: "  Option 3",
-  },
-  {
-    id: 3,
-    title: "  Option",
-  },
-];
+//               <div className="pt-4 ">
+//                 {CAREER_OPTION.map((x, index) => (
+//                   <div key={index} className="pt-[14px]">
+//                     {index === 0 ? (
+//                       <select
+//                         key={index}
+//                         className="w-full drop-shadow border-none text-white border-purple-heart rounded px-[10px] py-[10px] appearance-none bg-purple-heart"
+//                       >
+//                         <option className="text-base lg:text-lg font-space-gori font-normal text-ship-grey">
+//                           {x.title}
+//                         </option>
+//                       </select>
+//                     ) : (
+//                       <select
+//                         key={index}
+//                         className="w-full drop-shadow border border-white-rock rounded px-[10px] py-[10px] appearance-none bg-transparent"
+//                       >
+//                         <option className="text-base lg:text-lg font-space-gori font-normal text-ship-grey">
+//                           {x.title}
+//                         </option>
+//                       </select>
+//                     )}
+//                   </div>
+//                 ))}
+//               </div>
+//               <div className="flex justify-start items-start gap-4 pt-6">
+//                 <div onClick={increment}>
+//                   <CareerCustomButton
+//                     name="Previous"
+//                     className="bg-voilet text-purple-heart"
+//                   />
+//                 </div>
+//                 <div onClick={decrement}>
+//                   <CareerCustomButton name="Next" className="text-white" />
+//                 </div>
+//               </div>
+//     </div>
+//   );
+// };
+
+// export default CareerCard;
+
+// const CAREER_OPTION = [
+//   {
+//     id: 1,
+//     question: "Who is the innovate bulb? 1",
+//   },
+//   {
+//     id: 2,
+//     question: "Who is the innovate bulb? 2",
+//   },
+//   {
+//     id: 3,
+//     question: "Who is the innovate bulb? 3",
+//   },
+//   {
+//     id: 4,
+//     question: "Who is the innovate bulb? 4",
+//   },
+// ];

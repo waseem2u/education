@@ -9,10 +9,10 @@ function CareerPage() {
   return (
     <div>
       <CareerNavbar />
-      <CareerExplore />
-      <CareerCustomTab />
+      {/* <CareerExplore /> */}
+      {/* <CareerCustomTab /> */}
       <CareerDoctor />
-      <CareerFooter />
+      {/* <CareerFooter /> */}
     </div>
   );
 }

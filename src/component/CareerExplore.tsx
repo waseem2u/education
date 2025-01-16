@@ -4,7 +4,7 @@ import { CareerStroke, TotalPoint, TotalDuration } from "@/svg";
 
 const CareerExplore = () => {
   return (
-    <div className="lg:px-40 pt-12 lg:pt-[138px]">
+    <div className="px-2 md:px-16 lg:px-40 pt-12 lg:pt-[138px]">
       <div className="flex justify-start items-center">
         <div className="w-full max-w-[1192px] h-[474px] flex justify-center items-center">
           <div className="max-w-[443px] h-full bg-purple-heart rounded-l-lg relative">
