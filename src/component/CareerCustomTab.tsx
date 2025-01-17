@@ -1,9 +1,10 @@
 "use client";
-import * as React from "react";
+// import * as React ,{useState} from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 import Image from "next/image";
+import React, { useState } from "react";
 // import CareerCard from "./CareerCard";
 import CareerInnovate from "./CareerInnovate";
 import {
@@ -22,6 +23,16 @@ interface TabPanelProps {
 
 function CustomTabPanel(props: TabPanelProps) {
   const { children, value, index, ...other } = props;
+
+  const [currentIndex, setCurrentIndex] = useState(3);
+
+  const filterQuestion = CAREER_D0CTOR.filter((x) => x.id === currentIndex + 1);
+
+  const playVideo = () => {
+    if (currentIndex < CAREER_D0CTOR.length - 1) {
+      setCurrentIndex((prevIndex) => prevIndex + 1);
+    }
+  };
 
   return (
     <div
