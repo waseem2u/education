@@ -141,14 +141,17 @@ export default function BasicTabs() {
             <div className="vertical-bar pl-4 lg:pl-16 top-4">
               {CAREER_D0CTOR.map((x, index) => (
                 <div key={index} className="relative hidden md:block">
-                  <div className="absolute -left-6 lg:-left-20 top-8 lg:top-1 w-4 h-4 lg:w-[32px] lg:h-[32px] stars-shadow border border-light-violet rounded-full"></div>
+                  <div
+                    className={`absolute -left-6 lg:-left-20 top-8 lg:top-1 w-4 h-4 lg:w-[32px] lg:h-[32px] stars-shadow border border-light-violet rounded-full ${
+                      index === 0 ? "mt-0 mb-6" : "my-6"
+                    }`}
+                  ></div>
                   <div className="">
                     <div
                       className={` w-full max-w-[1132px] flex justify-between items-center border-b border-natural-grey relative ${
                         index === 0 ? "pt-0 pb-6" : "py-6"
                       }`}
                     >
-                      
                       <div className=" flex justify-center items-center gap-2 lg:gap-14">
                         <div className="flex justify-center items-center gap-2 ">
                           {index === 5 ? (
