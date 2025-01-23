@@ -39,3 +39,27 @@ export type FooterTypes = {
   icon: ReactNode;
   image: string;
 };
+export type CareerDoctorTypes = {
+  id: number;
+  title: string;
+  percent?: number | undefined;
+  minute: number;
+  videoPath?: string | undefined;
+  description?: string | undefined;
+  questions?: QuizType[];
+};
+
+export type QuizType = {
+  id: number;
+  question: string;
+  option?: string[];
+  awnser?: string;
+};
+
+// export type ExploreType = {
+//   id: number;
+//   icon: ReactNode;
+//   title: string;
+//   detail: string;
+//   video: string;
+// };
