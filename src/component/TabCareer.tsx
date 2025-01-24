@@ -49,7 +49,9 @@ export default function BasicTabs() {
   };
 
   return (
-    <div className="px-6 md:px-12 lg:px-40 pt-12 lg:pt-[138px] ">
+    <div className=" flex justify-center items-center">
+
+    <div className="px-6 md:px-12  pt-12 lg:pt-[138px]">
       <div className="flex justify-start items-center pb-16">
         <div className="w-full max-w-[1192px] h-full  sm:h-[474px] flex justify-center items-center flex-col sm:flex-row ">
           <div className="max-w-[546px] sm:max-w-[443px] w-full h-full bg-purple-heart rounded-t-lg sm:rounded-l-lg sm:rounded-bl-lg sm:rounded-tr-none  relative">
@@ -424,6 +426,7 @@ export default function BasicTabs() {
           </CustomTabPanel>
         </Box>
       </div>
+    </div>
     </div>
   );
 }
