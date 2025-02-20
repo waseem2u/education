@@ -84,8 +84,8 @@ export default function BasicTabs() {
                 </div>
               </div>
             </div>
-            <div className="bg-natural-grey rounded-bl-lg rounded-br-lg sm:rounded-br-lg sm:rounded-tr-lg sm:rounded-bl-none h-[30vh] object-cover sm:h-full overflow-hidden">
-              <video className=" h-full object-cover" controls>
+            <div className="w-full bg-natural-grey rounded-bl-lg rounded-br-lg sm:rounded-br-lg sm:rounded-tr-lg sm:rounded-bl-none h-[30vh] object-cover sm:h-full overflow-hidden">
+              <video className=" h-full w-full object-cover" controls>
                 <source src="/careerVideo/careerVideo.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
@@ -337,10 +337,6 @@ export default function BasicTabs() {
                                         {career.questions.length}
                                       </p>
                                     </div>
-
-                                    {/* <p className="text-xl font-space-gori font-normal text-ship-grey">
-                                  question ?
-                                </p> */}
                                   </div>
 
                                   {career.questions.map((quiz, index) => {
@@ -405,19 +401,6 @@ export default function BasicTabs() {
                     </div>
                   </div>
                 ))}
-
-                {/* <div className=" flex justify-start items-center flex-col">
-              <p className="text-lg lg:text-[28px] font-space-gori font-normal text-purple-heart pt-8">
-                Congratulation! You Have Completed Path
-              </p>
-              <div className="w-full max-w-[802px] flex justify-start items-start ">
-                <p className="text-base lg:text-xl font-space-gori text-silver-chalice pt-4 pl-4 lg:pl-16">
-                  From interactive lessons to thought-provoking quizzes,
-                  everything at MojiGurukul is designed with your curiosity,
-                  excitement, and growth in mind.
-                  </p>
-                  </div>
-                  </div> */}
               </div>
             </CustomTabPanel>
             <CustomTabPanel value={value} index={1}>
