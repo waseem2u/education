@@ -8,6 +8,7 @@ export type SvgParamTypes = {
   onClick: () => void;
 };
 
+
 export type HowMojiDifferentTypes = {
   id: number;
   title: string;
